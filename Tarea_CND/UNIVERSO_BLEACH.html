@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universo Bleach</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand" href="#"><img src="Bleach.webp" alt="Bleach Logo" width="100" /></a>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Personajes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <section class="bg-dark text-white p-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Bienvenido al Universo de Bleach</h1>
+      <div class="row align-items-center">
+        <div class="col-md-8">
+          <p class="lead">
+            Explora el mundo espiritual, los shinigamis, hollows y todo lo que rodea al épico universo creado por Tite Kubo. Desde la Sociedad de Almas hasta Hueco Mundo, descubre a tus personajes favoritos y revive las mejores batallas.
+          </p>
+          <a href="mailto:info@bleachanime.com" class="btn btn-danger">info@bleachanime.com</a>
+        </div>
+        <div class="col-md-4">
+          <img src="512px-IchigoKurosakiBleach.webp" class="img-fluid rounded" alt="Ichigo Kurosaki" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <div class="container my-5">
+    <h2 class="mb-4">Personajes Principales</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="537Ichigo_thanks.webp" class="card-img-top" alt="Ichigo">
+          <div class="card-body">
+            <h5 class="card-title">Ichigo Kurosaki</h5>
+            <p class="card-text">El protagonista principal, un humano con poderes de shinigami. Valiente, fuerte y protector.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="512px-RukiaKuchikiKubo.webp" class="card-img-top" alt="Rukia">
+          <div class="card-body">
+            <h5 class="card-title">Rukia Kuchiki</h5>
+            <p class="card-text">La shinigami que cambió el destino de Ichigo. Leal, inteligente y con gran sentido del deber.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="sosuke_aizen.webp" class="card-img-top" alt="Aizen">
+          <div class="card-body">
+            <h5 class="card-title">Sōsuke Aizen</h5>
+            <p class="card-text">El villano principal durante gran parte de la serie. Astuto, poderoso y manipulador.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulario -->
+  <div class="container my-5">
+    <h2>Contáctanos</h2>
+    <form>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Nombre de usuario Shinigami" required />
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Correo electrónico" required />
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="3" placeholder="¿Qué te gusta de Bleach?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-danger">Enviar mensaje</button>
+    </form>
+  </div>
+
+  <!-- Accordion -->
+  <div class="container my-5">
+    <h2>Preguntas frecuentes</h2>
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            ¿Cuál es el Bankai de Ichigo?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            Tensa Zangetsu es el nombre del Bankai de Ichigo, que combina velocidad extrema con un poder devastador.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            ¿Qué es un Hollow?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Un Hollow es un alma corrompida por sus emociones negativas. Son enemigos naturales de los shinigamis.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabla -->
+  <div class="container my-5">
+    <h2>Arcos de la Serie</h2>
+    <table class="table table-dark table-hover">
+      <thead>
+        <tr>
+          <th>Arco</th>
+          <th>Temporada</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Soul Society</td>
+          <td>1-2</td>
+          <td>Rescate de Rukia y primeras batallas épicas.</td>
+        </tr>
+        <tr>
+          <td>Arrancar</td>
+          <td>3-5</td>
+          <td>Enfrentamientos contra los Espada y Aizen.</td>
+        </tr>
+        <tr>
+          <td>Thousand-Year Blood War</td>
+          <td>Final</td>
+          <td>Guerra total entre Quincy y Shinigamis.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    &copy; 2025 Universo Bleach - Fansite no oficial
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
